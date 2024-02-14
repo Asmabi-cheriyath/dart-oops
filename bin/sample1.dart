@@ -20,14 +20,15 @@
 //   login.checkLogin();
 // }
 
-import 'dart:io';
 
-import 'encap2.dart';
+// import 'dart:io';
 
-void main(){
-  var guessGame=Guess();
-  print("Enter a Number:");
-  int value=int.parse(stdin.readLineSync()!);
+// import 'encap2.dart';
 
-  guessGame.checkNum(value);
-}
+// void main(){
+//   var guessGame=Guess();
+//   print("Enter a Number:");
+//   int value=int.parse(stdin.readLineSync()!);
+
+//   guessGame.checkNum(value);
+// }

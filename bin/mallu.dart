@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main(){
 
   //Data Types
@@ -52,15 +54,88 @@ void main(){
   // print(student);
 
 
+  //STRING
+
+  // String classname="a b c";
+  // print(classname);
+
   //properties:-
   //____________
 
-  String classname="a b c";
-  print(classname);
+  // print(classname.isNotEmpty); //its a boolean values
+  // print(classname.isEmpty);
+  // print(classname.length);
 
-  print(classname.isNotEmpty); //its a boolean values
-   print(classname.isEmpty);
-  print(classname.length);
+  //method
+  //______
+  
+  // print(classname.toUpperCase());
+  // print(classname.toLowerCase());
+
+
+  //INT
+
+  // int stdcount=30;
+
+  //properties
+  //__________
+
+  // print(stdcount.isEven);
+  // print(stdcount.isOdd);
+  // print(stdcount.isNegative);
+
+  //method
+
+  // double count=10.4;
+  // print(count.round());
+
+
+  //LIST
+
+  // List<String>student=["abc","cdf","ert"];
+
+  //properties
+  //__________
+
+  // print(student.isEmpty);
+  // print(student.isNotEmpty);
+  // print(student.length);
+  // print(student.first);
+  // print(student.last);
+  
+  //method
+  //______
+
+  // student.add("fgh"); //1 value is add
+  // student.insert(0,"cvb");
+  // student.insert(2,"dfg");
+  // student.remove("abc");
+  // student.removeAt(1);
+  // print(student);
+
+
+  //MAP
+  //___
+
+
+  Map<String,dynamic>student={"name":"arun","age":12,"mark":100,"pass":true};
+
+  //properties
+  //__________
+
+  // print(student.isEmpty);
+  // print(student.isNotEmpty);
+  // print(student.length);
+  // print(student.keys);
+  // print(student.values);
+
+  //methods
+  //_______
+
+  // student.addAll({"email":"abc@gmail.com"}); //more map is add
+  // student.clear(); //all delete
+  student.remove("pass");
+  print(student);
 
 }
 
