@@ -1,6 +1,7 @@
 import 'dart:ffi';
+import 'dart:io';
 
-void main(){
+// void main(){
 
   //Data Types
   //__________
@@ -54,7 +55,7 @@ void main(){
   // print(student);
 
 
-  //STRING
+  //STRING:-
 
   // String classname="a b c";
   // print(classname);
@@ -73,7 +74,7 @@ void main(){
   // print(classname.toLowerCase());
 
 
-  //INT
+  //INT:-
 
   // int stdcount=30;
 
@@ -90,7 +91,7 @@ void main(){
   // print(count.round());
 
 
-  //LIST
+  //LIST:-
 
   // List<String>student=["abc","cdf","ert"];
 
@@ -114,11 +115,11 @@ void main(){
   // print(student);
 
 
-  //MAP
+  //MAP:-
   //___
 
 
-  Map<String,dynamic>student={"name":"arun","age":12,"mark":100,"pass":true};
+  // Map<String,dynamic>student={"name":"arun","age":12,"mark":100,"pass":true};
 
   //properties
   //__________
@@ -134,8 +135,127 @@ void main(){
 
   // student.addAll({"email":"abc@gmail.com"}); //more map is add
   // student.clear(); //all delete
-  student.remove("pass");
-  print(student);
+  // student.remove("pass");
+  // print(student);
 
+// }
+
+  //DECISION STATEMENT:-
+  //__________________
+
+  // void main()
+  // {
+  //   num mark=30;
+  
+
+  //IF STATEMENT
+  //_____________
+  
+  // if(mark>=20){
+  //   print("passed"); //body
+  // }
+  // else{
+  //   print("failed");
+  // }
+
+  // }
+
+
+
+//example for else if
+
+
+  //90-100=>A+
+  //80-89=>A
+  //70-79=>B+
+  //60-69=>B
+  //50-59=>C+
+  //LESS THAN 50=>C
+
+  // void main(){
+    
+  //   String grade="";
+
+  //   print("Enter a mark");
+  //   int num=int.parse(stdin.readLineSync()!);
+
+
+  //   if(num>=90 && num<=100){
+  //     grade="A+";
+  //   }
+  //   else if(num>=80 && num<=89){
+  //     grade="A";
+  //   }
+  //   else if(num>=70 && num<=79){
+  //     grade="B+";
+  //   }
+  //   else if(num>=60 && num<=69){
+  //     grade="B";
+  //   }
+  //   else if(num>=50 && num<=59){
+  //     grade="C+";
+  //   }
+  //   else if (num<50){
+  //     grade="C";
+  //   }
+  //   print("The grade is \n$grade");
+  // }
+
+
+  //LOOPS:-
+  //_____
+
+// void main()
+// {
+  
+
+  //whlile
+  //______
+
+  // int num =1;
+  // while(num<=10){
+  //   print(num);
+  //   num=num+1;
+  // }
+  
+
+  // List student=["abc","cdf","hij","klm"];
+  // int count=0;
+  // while(count<student.length){
+  //   print(student[count]);
+  //   count=count+1;
+  // }
+  // }
+
+
+  //for
+  //___
+
+
+  // void main(){
+
+  // for(int num=1;num<=10;num=num+1){
+  //   print(num);
+  // }
+  
+
+//   List student=["abc","cdf","hij","klm"];
+//   int num=4;
+//   for(int i=0;i<num;i++){
+//   for(int count=0;count<student.length;count=count+1){
+//     print(student[count]);
+//   }
+//   print("___");
+//   }
+//   print("\nEND\n");
+
+// }
+
+
+//FUNCTIONS:-
+//_________
+
+
+void main(){
+  
 }
-

@@ -285,26 +285,26 @@
 //sort
 // _________
 
-void main()
-{
-  List a=[8,1,9,7,2,5];
-  for(var i=0;i<=a.length;i++)
-  {
-    for(int j=i+1;j<a.length;j++)
-    {
-      if (a[i]>a[j])
-      {
-        int temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
-        //  print(a);
-      }
-      // print(a);
-    }
-    // print('////////a');
-  }
-   print('$a');
-}
+// void main()
+// {
+//   List a=[8,1,9,7,2,5];
+//   for(var i=0;i<=a.length;i++)
+//   {
+//     for(int j=i+1;j<a.length;j++)
+//     {
+//       if (a[i]>a[j])
+//       {
+//         int temp = a[i];
+//         a[i] = a[j];
+//         a[j] = temp;
+//         //  print(a);
+//       }
+//       // print(a);
+//     }
+//     // print('////////a');
+//   }
+//    print('$a');
+// }
 
 
 // void main()
@@ -422,6 +422,7 @@ void main()
 
 //arrow function
 //______________
+
 
 // void main() 
 // {
