@@ -68,3 +68,16 @@
 
 
 // abstraction
+
+import 'abstract.dart';
+
+void main()
+{
+  SearchAll a=SearchAll();
+  SearchImage i=SearchImage();
+  SearchVedio v=SearchVedio();
+
+  a.search();
+  i.search();
+  v.search();
+}

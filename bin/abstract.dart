@@ -10,14 +10,14 @@ class SearchAll extends Google{
   }
 }
 
-class ImageSearch extends Google{
-  void image(){
+class SearchImage extends Google{
+  void search(){
     print("Search Image is");
   }
 }
 
-class vedioSearch extends Google{
-  void vedio(){
+class SearchVedio extends Google{
+  void search(){
     print("Search Vedio is");
   }
 }
