@@ -256,6 +256,24 @@ import 'dart:io';
 //_________
 
 
-void main(){
+// void main(){
+
+//   void printName(){
+//   String a="abcd";
+//   print(a);
+//   }
+//   printName(); 
   
-}
+// }
+
+
+// void main(){
+//   String printName(){
+//     String b="asma";
+//     return b;
+//   }
+//   String nameFromFunction = printName();
+//   print(nameFromFunction);
+// }
+
+

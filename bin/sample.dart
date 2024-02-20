@@ -432,20 +432,20 @@
 // }
 
 
-void main(){
+// void main(){
 
-  String a="hello";
-  String b="lloh";
-  String c=a+a;
-  print(c);
-  if(c.contains(b)){
-    print("YES");
-  }
-  else{
-    print("NO");
-  }
+//   String a="hello";
+//   String b="lloh";
+//   String c=a+a;
+//   print(c);
+//   if(c.contains(b)){
+//     print("YES");
+//   }
+//   else{
+//     print("NO");
+//   }
 
-}
+// }
 
 
 
